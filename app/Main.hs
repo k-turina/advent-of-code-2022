@@ -2,8 +2,14 @@
 
 module Main where
 
+import Data.Proxy
 import Solutions
 
 main :: IO ()
 main = do
-  print ((sol1 @Day1) "")
+  inputs <- getContents
+  print (sol1 proxy inputs)
+  print (sol2 proxy inputs)
+  where
+    proxy :: Proxy Day1
+    proxy = Proxy
