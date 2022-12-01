@@ -51,12 +51,38 @@ library
     -- Modules included in this library but not exported.
     other-modules:    Day
                       Solutions.Day1
+                      Solutions.Day2
+                      Solutions.Day3
+                      Solutions.Day4
+                      Solutions.Day5
+                      Solutions.Day6
+                      Solutions.Day7
+                      Solutions.Day8
+                      Solutions.Day9
+                      Solutions.Day10
+                      Solutions.Day11
+                      Solutions.Day12
+                      Solutions.Day13
+                      Solutions.Day14
+                      Solutions.Day15
+                      Solutions.Day16
+                      Solutions.Day17
+                      Solutions.Day18
+                      Solutions.Day19
+                      Solutions.Day20
+                      Solutions.Day21
+                      Solutions.Day22
+                      Solutions.Day23
+                      Solutions.Day24
+                      Solutions.Day25
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.16.3.0
+    build-depends:    
+        base ^>=4.16.3.0,
+        split ^>= 0.2.3.5
 
     -- Directories containing source files.
     hs-source-dirs:   src
