@@ -11,5 +11,5 @@ main = do
   print (sol1 proxy inputs)
   print (sol2 proxy inputs)
   where
-    proxy :: Proxy Day2
+    proxy :: Proxy Day3
     proxy = Proxy
